@@ -2,15 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url(/assets/img/Quote-a-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
     min-height: 100vh;
+    text-align: center;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
 }
